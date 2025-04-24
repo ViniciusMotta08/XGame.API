@@ -15,11 +15,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\viniciusm\\source\\repos\\XGame.Domain\\XGame.Domain\\XGame.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\XGame.Domain.csproj",
       "projectName": "XGame.Domain",
-      "projectPath": "C:\\Users\\viniciusm\\source\\repos\\XGame.Domain\\XGame.Domain\\XGame.Domain.csproj",
+      "projectPath": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\XGame.Domain.csproj",
       "packagesPath": "C:\\Users\\viniciusm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\viniciusm\\source\\repos\\XGame.Domain\\XGame.Domain\\obj\\",
+      "outputPath": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",

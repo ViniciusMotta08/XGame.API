@@ -1,0 +1,143 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\viniciusm\\source\\repos\\XGame\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\viniciusm\\source\\repos\\xgame\\xgame.domain\\services\\serviceplataforma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\services\\serviceplataforma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\viniciusm\\source\\repos\\xgame\\xgame.domain\\services\\servicejogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\services\\servicejogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\viniciusm\\source\\repos\\xgame\\xgame.domain\\interfaces\\services\\iserviceplataforma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\interfaces\\services\\iserviceplataforma.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\viniciusm\\source\\repos\\xgame\\xgame.domain\\arguments\\plataforma\\adicionarplataformaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\arguments\\plataforma\\adicionarplataformaresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\viniciusm\\source\\repos\\xgame\\xgame.domain\\arguments\\plataforma\\adicionarplataformarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\arguments\\plataforma\\adicionarplataformarequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\viniciusm\\source\\repos\\xgame\\xgame.domain\\interfaces\\services\\iservicejogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\interfaces\\services\\iservicejogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 1,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "IServiceJogador.cs",
+              "DocumentMoniker": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Interfaces\\Services\\IServiceJogador.cs",
+              "RelativeDocumentMoniker": "XGame.Domain\\Interfaces\\Services\\IServiceJogador.cs",
+              "ToolTip": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Interfaces\\Services\\IServiceJogador.cs",
+              "RelativeToolTip": "XGame.Domain\\Interfaces\\Services\\IServiceJogador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAAkAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T15:19:12.101Z",
+              "IsPinned": true,
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "ServicePlataforma.cs",
+              "DocumentMoniker": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Services\\ServicePlataforma.cs",
+              "RelativeDocumentMoniker": "XGame.Domain\\Services\\ServicePlataforma.cs",
+              "ToolTip": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Services\\ServicePlataforma.cs",
+              "RelativeToolTip": "XGame.Domain\\Services\\ServicePlataforma.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:49:46.789Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AdicionarPlataformaResponse.cs",
+              "DocumentMoniker": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Arguments\\Plataforma\\AdicionarPlataformaResponse.cs",
+              "RelativeDocumentMoniker": "XGame.Domain\\Arguments\\Plataforma\\AdicionarPlataformaResponse.cs",
+              "ToolTip": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Arguments\\Plataforma\\AdicionarPlataformaResponse.cs",
+              "RelativeToolTip": "XGame.Domain\\Arguments\\Plataforma\\AdicionarPlataformaResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAA7AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:47:40.919Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AdicionarPlataformaRequest.cs",
+              "DocumentMoniker": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Arguments\\Plataforma\\AdicionarPlataformaRequest.cs",
+              "RelativeDocumentMoniker": "XGame.Domain\\Arguments\\Plataforma\\AdicionarPlataformaRequest.cs",
+              "ToolTip": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Arguments\\Plataforma\\AdicionarPlataformaRequest.cs",
+              "RelativeToolTip": "XGame.Domain\\Arguments\\Plataforma\\AdicionarPlataformaRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:42:01.646Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IServicePlataforma.cs",
+              "DocumentMoniker": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Interfaces\\Services\\IServicePlataforma.cs",
+              "RelativeDocumentMoniker": "XGame.Domain\\Interfaces\\Services\\IServicePlataforma.cs",
+              "ToolTip": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Interfaces\\Services\\IServicePlataforma.cs",
+              "RelativeToolTip": "XGame.Domain\\Interfaces\\Services\\IServicePlataforma.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABcAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:06:19.388Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ServiceJogador.cs",
+              "DocumentMoniker": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Services\\ServiceJogador.cs",
+              "RelativeDocumentMoniker": "XGame.Domain\\Services\\ServiceJogador.cs",
+              "ToolTip": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Services\\ServiceJogador.cs",
+              "RelativeToolTip": "XGame.Domain\\Services\\ServiceJogador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-24T16:00:47.335Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:254354193:0:{71f361cc-493f-47c0-923f-f2570b6f8618}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

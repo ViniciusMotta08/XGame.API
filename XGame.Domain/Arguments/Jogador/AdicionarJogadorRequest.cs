@@ -1,14 +1,12 @@
-﻿using XGame.Domain.Enum;
+﻿using XGame.Domain.Interfaces.Arguments;
 using XGame.Domain.ValueObjects;
 
-namespace XGame.Domain.Entities
+namespace XGame.Domain.Arguments.Jogador
 {
-    public class Jogador
+    public class AdicionarJogadorRequest : IRequest
     {
-        public Guid Id { get; set; }
         public Nome Nome { get; set; } = new Nome();
         public Email Email { get; set; } = new Email();
         public string Senha { get; private set; } = string.Empty;
-        public EnumSituacaoJogador Status { get; set; }
     }
 }
