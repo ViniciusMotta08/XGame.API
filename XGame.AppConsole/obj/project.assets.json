@@ -1300,6 +1300,19 @@
         "runtime": {
           "lib/netstandard1.3/System.Xml.XDocument.dll": {}
         }
+      },
+      "XGame.Domain/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "dependencies": {
+          "prmToolkit.NotificationPattern": "1.1.5"
+        },
+        "compile": {
+          "bin/placeholder/XGame.Domain.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/XGame.Domain.dll": {}
+        }
       }
     }
   },
@@ -4585,11 +4598,16 @@
         "system.xml.xdocument.4.3.0.nupkg.sha512",
         "system.xml.xdocument.nuspec"
       ]
+    },
+    "XGame.Domain/1.0.0": {
+      "type": "project",
+      "path": "../XGame.Domain/XGame.Domain.csproj",
+      "msbuildProject": "../XGame.Domain/XGame.Domain.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
-      "prmToolkit.NotificationPattern >= 1.1.5"
+      "XGame.Domain >= 1.0.0"
     ]
   },
   "packageFolders": {
@@ -4600,11 +4618,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\XGame.Domain.csproj",
-      "projectName": "XGame.Domain",
-      "projectPath": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\XGame.Domain.csproj",
+      "projectUniqueName": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.AppConsole\\XGame.AppConsole.csproj",
+      "projectName": "XGame.AppConsole",
+      "projectPath": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.AppConsole\\XGame.AppConsole.csproj",
       "packagesPath": "C:\\Users\\viniciusm\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\obj\\",
+      "outputPath": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.AppConsole\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages",
@@ -4626,7 +4644,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\XGame.Domain.csproj": {
+              "projectPath": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\XGame.Domain.csproj"
+            }
+          }
         }
       },
       "warningProperties": {
@@ -4644,12 +4666,6 @@
     "frameworks": {
       "net8.0": {
         "targetAlias": "net8.0",
-        "dependencies": {
-          "prmToolkit.NotificationPattern": {
-            "target": "Package",
-            "version": "[1.1.5, )"
-          }
-        },
         "imports": [
           "net461",
           "net462",

@@ -51,6 +51,12 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
+          "dependencies": {
+            "prmToolkit.NotificationPattern": {
+              "target": "Package",
+              "version": "[1.1.5, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

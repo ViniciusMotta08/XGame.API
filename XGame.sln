@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
-VisualStudioVersion = 17.13.35931.197 d17.13
+VisualStudioVersion = 17.13.35931.197
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XGame.Domain", "XGame.Domain\XGame.Domain.csproj", "{502F723E-1D72-45F1-9C0B-C2882484FBA8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "XGame.AppConsole", "XGame.AppConsole\XGame.AppConsole.csproj", "{B351B63C-A827-4861-AA41-429810738FE0}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{502F723E-1D72-45F1-9C0B-C2882484FBA8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{502F723E-1D72-45F1-9C0B-C2882484FBA8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{502F723E-1D72-45F1-9C0B-C2882484FBA8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B351B63C-A827-4861-AA41-429810738FE0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B351B63C-A827-4861-AA41-429810738FE0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B351B63C-A827-4861-AA41-429810738FE0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B351B63C-A827-4861-AA41-429810738FE0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
