@@ -20,3 +20,7 @@ C:\Users\viniciusm\source\repos\XGame\XGame.Domain\obj\Debug\net8.0\XGame.Domain
 C:\Users\viniciusm\source\repos\XGame\XGame.Domain\obj\Debug\net8.0\XGame.Domain.dll
 C:\Users\viniciusm\source\repos\XGame\XGame.Domain\obj\Debug\net8.0\refint\XGame.Domain.dll
 C:\Users\viniciusm\source\repos\XGame\XGame.Domain\obj\Debug\net8.0\XGame.Domain.pdb
+C:\Users\viniciusm\source\repos\XGame\XGame.Domain\bin\Debug\net8.0\XGame.Domain.deps.json
+C:\Users\viniciusm\source\repos\XGame\XGame.Domain\bin\Debug\net8.0\XGame.Domain.dll
+C:\Users\viniciusm\source\repos\XGame\XGame.Domain\bin\Debug\net8.0\XGame.Domain.pdb
+C:\Users\viniciusm\source\repos\XGame\XGame.Domain\obj\Debug\net8.0\ref\XGame.Domain.dll

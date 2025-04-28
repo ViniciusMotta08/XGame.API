@@ -7,16 +7,12 @@
       "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\services\\servicejogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\viniciusm\\source\\repos\\xgame\\xgame.domain\\arguments\\jogador\\autenticarjogadorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\arguments\\jogador\\autenticarjogadorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\viniciusm\\source\\repos\\xgame\\xgame.domain\\entities\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\entities\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\viniciusm\\source\\repos\\xgame\\xgame.domain\\enum\\enumsituacaojogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\enum\\enumsituacaojogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\viniciusm\\source\\repos\\xgame\\xgame.domain\\arguments\\jogador\\adicionarjogadorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\arguments\\jogador\\adicionarjogadorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -36,7 +32,7 @@
               "RelativeDocumentMoniker": "XGame.Domain\\Services\\ServiceJogador.cs",
               "ToolTip": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Services\\ServiceJogador.cs",
               "RelativeToolTip": "XGame.Domain\\Services\\ServiceJogador.cs",
-              "ViewState": "AgIAAAMAAAAAAAAAAAAAACAAAAAcAAAAAAAAAA==",
+              "ViewState": "AgIAAAoAAAAAAAAAAAAuwD0AAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T14:19:06.307Z",
               "IsPinned": true,
@@ -44,41 +40,28 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "EnumSituacaoJogador.cs",
-              "DocumentMoniker": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Enum\\EnumSituacaoJogador.cs",
-              "RelativeDocumentMoniker": "XGame.Domain\\Enum\\EnumSituacaoJogador.cs",
-              "ToolTip": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Enum\\EnumSituacaoJogador.cs",
-              "RelativeToolTip": "XGame.Domain\\Enum\\EnumSituacaoJogador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAQAAAARAAAAAAAAAA==",
+              "DocumentIndex": 1,
+              "Title": "AutenticarJogadorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Arguments\\Jogador\\AutenticarJogadorResponse.cs",
+              "RelativeDocumentMoniker": "XGame.Domain\\Arguments\\Jogador\\AutenticarJogadorResponse.cs",
+              "ToolTip": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Arguments\\Jogador\\AutenticarJogadorResponse.cs",
+              "RelativeToolTip": "XGame.Domain\\Arguments\\Jogador\\AutenticarJogadorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T15:25:46.974Z",
+              "WhenOpened": "2025-04-28T17:08:59.177Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Jogador.cs",
               "DocumentMoniker": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Entities\\Jogador.cs",
               "RelativeDocumentMoniker": "XGame.Domain\\Entities\\Jogador.cs",
               "ToolTip": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Entities\\Jogador.cs",
               "RelativeToolTip": "XGame.Domain\\Entities\\Jogador.cs",
-              "ViewState": "AgIAAAkAAAAAAAAAAAAAAB8AAAAtAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAaAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T15:24:31.25Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "AdicionarJogadorRequest.cs",
-              "DocumentMoniker": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Arguments\\Jogador\\AdicionarJogadorRequest.cs",
-              "RelativeDocumentMoniker": "XGame.Domain\\Arguments\\Jogador\\AdicionarJogadorRequest.cs",
-              "ToolTip": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Arguments\\Jogador\\AdicionarJogadorRequest.cs",
-              "RelativeToolTip": "XGame.Domain\\Arguments\\Jogador\\AdicionarJogadorRequest.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAABAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T15:03:23.985Z",
+              "WhenOpened": "2025-04-28T17:05:37.988Z",
               "EditorCaption": ""
             },
             {

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XGame.AppConsole")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0360b165ca2f709be807f778ecc15c6586de28bd")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbd465271ce500f25a730984a7581bf721ddabd5")]
 [assembly: System.Reflection.AssemblyProductAttribute("XGame.AppConsole")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XGame.AppConsole")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
