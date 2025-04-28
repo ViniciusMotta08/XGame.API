@@ -1,4 +1,6 @@
 ﻿using prmToolkit.NotificationPattern;
+using prmToolkit.NotificationPattern.Extensions;
+using XGame.Domain.Resources;
 
 namespace XGame.Domain.ValueObjects
 {
@@ -8,7 +10,7 @@ namespace XGame.Domain.ValueObjects
         {
             Endereco = endereco;
 
-            new AddNotifications<Email>(this).IfNotEmail(x => x.Endereco);
+            new AddNotifications<Email>(this).IfNotEmail(x => x.Endereco, Message.X0_INVALIDO.ToFormat("E-mail"));
         }
 
         public string Endereco { get; private set; } = string.Empty;

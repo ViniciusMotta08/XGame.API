@@ -1,4 +1,5 @@
 ﻿using prmToolkit.NotificationPattern;
+using prmToolkit.NotificationPattern.Extensions;
 using XGame.Domain.Arguments.Jogador;
 using XGame.Domain.Entities;
 using XGame.Domain.Interfaces.Repositories;
@@ -12,7 +13,7 @@ namespace XGame.Domain.Services
     {
         private readonly IRepositoryJogador _repositoryJogador;
         public ServiceJogador()
-        {            
+        {
         }
 
         public ServiceJogador(IRepositoryJogador repositoryJogador)
@@ -22,10 +23,15 @@ namespace XGame.Domain.Services
 
         public AdicionarJogadorResponse AdicionarJogador(AdicionarJogadorRequest request)
         {
-            Jogador jogador = new Jogador();
-            jogador.Email = request.Email;
-            jogador.Nome = request.Nome;
-            jogador.Status = Enum.EnumSituacaoJogador.EmAndamento;
+            var nome = new Nome("Vinicius", "Motta");
+            var email = new Email("vinicius.analista@outlook.com");
+
+            Jogador jogador = new Jogador(nome, email, "123456");
+
+            if (this.IsInvalid())
+            {
+                return null;
+            }
 
             Guid id = _repositoryJogador.AdicionarJogador(jogador);
 
@@ -34,13 +40,13 @@ namespace XGame.Domain.Services
 
         public AutenticarJogadorResponse AutenticarJogador(AutenticarJogadorRequest request)
         {
-            if(request == null)
+            if (request == null)
             {
-                AddNotification("AutenticarJogadorRequest", string.Format(Message.X0_E_OBRIGATORIO, "AutenticarJogadorRequest"));
+                AddNotification("AutenticarJogadorRequest", string.Format(Message.X0_E_OBRIGATORIO.ToFormat("AutenticarJogadorRequest")));
             }
 
-            var email = new Email("paulo");
-            var jogador = new Jogador(email, "222");
+            var email = new Email(request.Email);
+            var jogador = new Jogador(email, request.Senha);
 
             AddNotifications(jogador);
 
@@ -49,7 +55,7 @@ namespace XGame.Domain.Services
                 return null;
             }
 
-            var response = _repositoryJogador.AutenticarJogador(request);
+            var response = _repositoryJogador.AutenticarJogador(jogador.Email.Endereco, jogador.Senha);
             return response;
         }
     }

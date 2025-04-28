@@ -1,0 +1,30 @@
+# Ignore arquivos do Visual Studio
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+
+# Ignore diretórios de build
+bin/
+obj/
+
+# Ignore pacotes do NuGet
+*.nupkg
+*.snupkg
+packages/
+
+# Arquivos de publicação
+*.publishsettings
+
+# Log e arquivos temporários
+*.log
+*.tmp
+
+# Banco de dados local
+*.mdf
+*.ldf
+
+# Ignorar configurações pessoais
+*.vscode/
+*.idea/
