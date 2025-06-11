@@ -6,5 +6,7 @@ namespace XGame.Domain.Interfaces.Services
     {
         AutenticarJogadorResponse AutenticarJogador(AutenticarJogadorRequest request);
         AdicionarJogadorResponse AdicionarJogador(AdicionarJogadorRequest request);
+        AlterarJogadorResponse AlterarJogador(AlterarJogadorRequest request);
+        IEnumerable<JogadorResponse> ListarJogador();
     }
 }

@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("XGame.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+fbd465271ce500f25a730984a7581bf721ddabd5")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e72973697ec9aa322c6a67e8b80c659e2c732c4c")]
 [assembly: System.Reflection.AssemblyProductAttribute("XGame.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("XGame.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

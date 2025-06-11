@@ -1,18 +1,38 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\viniciusm\\source\\repos\\XGame\\",
+  "WorkspaceRootPath": "C:\\Users\\yMott\\source\\repos\\XGame.API\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\viniciusm\\source\\repos\\xgame\\xgame.domain\\services\\servicejogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\ymott\\source\\repos\\xgame.api\\xgame.domain\\arguments\\jogador\\alterarjogadorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\arguments\\jogador\\alterarjogadorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\ymott\\source\\repos\\xgame.api\\xgame.domain\\services\\servicejogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\services\\servicejogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\viniciusm\\source\\repos\\xgame\\xgame.domain\\arguments\\jogador\\autenticarjogadorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\arguments\\jogador\\autenticarjogadorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\ymott\\source\\repos\\xgame.api\\xgame.domain\\arguments\\jogador\\alterarjogadorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\arguments\\jogador\\alterarjogadorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\viniciusm\\source\\repos\\xgame\\xgame.domain\\entities\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\ymott\\source\\repos\\xgame.api\\xgame.domain\\interfaces\\repositories\\irepositoryjogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\interfaces\\repositories\\irepositoryjogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\ymott\\source\\repos\\xgame.api\\xgame.domain\\entities\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\entities\\jogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\ymott\\source\\repos\\xgame.api\\xgame.domain\\arguments\\jogador\\jogadorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\arguments\\jogador\\jogadorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B351B63C-A827-4861-AA41-429810738FE0}|XGame.AppConsole\\XGame.AppConsole.csproj|c:\\users\\ymott\\source\\repos\\xgame.api\\xgame.appconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B351B63C-A827-4861-AA41-429810738FE0}|XGame.AppConsole\\XGame.AppConsole.csproj|solutionrelative:xgame.appconsole\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|c:\\users\\ymott\\source\\repos\\xgame.api\\xgame.domain\\interfaces\\services\\iservicejogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{502F723E-1D72-45F1-9C0B-C2882484FBA8}|XGame.Domain\\XGame.Domain.csproj|solutionrelative:xgame.domain\\interfaces\\services\\iservicejogador.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,17 +42,17 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
               "Title": "ServiceJogador.cs",
-              "DocumentMoniker": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Services\\ServiceJogador.cs",
+              "DocumentMoniker": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.Domain\\Services\\ServiceJogador.cs",
               "RelativeDocumentMoniker": "XGame.Domain\\Services\\ServiceJogador.cs",
-              "ToolTip": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Services\\ServiceJogador.cs",
+              "ToolTip": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.Domain\\Services\\ServiceJogador.cs",
               "RelativeToolTip": "XGame.Domain\\Services\\ServiceJogador.cs",
-              "ViewState": "AgIAAAoAAAAAAAAAAAAuwD0AAAAFAAAAAAAAAA==",
+              "ViewState": "AgIAABoAAAAAAAAAAAAwwCUAAAAcAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-04-25T14:19:06.307Z",
               "IsPinned": true,
@@ -40,49 +60,95 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AutenticarJogadorResponse.cs",
-              "DocumentMoniker": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Arguments\\Jogador\\AutenticarJogadorResponse.cs",
-              "RelativeDocumentMoniker": "XGame.Domain\\Arguments\\Jogador\\AutenticarJogadorResponse.cs",
-              "ToolTip": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Arguments\\Jogador\\AutenticarJogadorResponse.cs",
-              "RelativeToolTip": "XGame.Domain\\Arguments\\Jogador\\AutenticarJogadorResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAxAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AlterarJogadorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.Domain\\Arguments\\Jogador\\AlterarJogadorResponse.cs",
+              "RelativeDocumentMoniker": "XGame.Domain\\Arguments\\Jogador\\AlterarJogadorResponse.cs",
+              "ToolTip": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.Domain\\Arguments\\Jogador\\AlterarJogadorResponse.cs",
+              "RelativeToolTip": "XGame.Domain\\Arguments\\Jogador\\AlterarJogadorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABIAAABKAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T17:08:59.177Z",
+              "WhenOpened": "2025-06-11T09:47:18.449Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "Jogador.cs",
-              "DocumentMoniker": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Entities\\Jogador.cs",
-              "RelativeDocumentMoniker": "XGame.Domain\\Entities\\Jogador.cs",
-              "ToolTip": "C:\\Users\\viniciusm\\source\\repos\\XGame\\XGame.Domain\\Entities\\Jogador.cs",
-              "RelativeToolTip": "XGame.Domain\\Entities\\Jogador.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwA4AAAAaAAAAAAAAAA==",
+              "Title": "AlterarJogadorRequest.cs",
+              "DocumentMoniker": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.Domain\\Arguments\\Jogador\\AlterarJogadorRequest.cs",
+              "RelativeDocumentMoniker": "XGame.Domain\\Arguments\\Jogador\\AlterarJogadorRequest.cs",
+              "ToolTip": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.Domain\\Arguments\\Jogador\\AlterarJogadorRequest.cs",
+              "RelativeToolTip": "XGame.Domain\\Arguments\\Jogador\\AlterarJogadorRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAcAAAA+AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-28T17:05:37.988Z",
+              "WhenOpened": "2025-06-11T09:32:20.167Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IServiceJogador.cs",
+              "DocumentMoniker": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.Domain\\Interfaces\\Services\\IServiceJogador.cs",
+              "RelativeDocumentMoniker": "XGame.Domain\\Interfaces\\Services\\IServiceJogador.cs",
+              "ToolTip": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.Domain\\Interfaces\\Services\\IServiceJogador.cs",
+              "RelativeToolTip": "XGame.Domain\\Interfaces\\Services\\IServiceJogador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:08:17.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.AppConsole\\Program.cs",
+              "RelativeDocumentMoniker": "XGame.AppConsole\\Program.cs",
+              "ToolTip": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.AppConsole\\Program.cs",
+              "RelativeToolTip": "XGame.AppConsole\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-06-08T20:08:25.327Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Jogador.cs",
+              "DocumentMoniker": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.Domain\\Entities\\Jogador.cs",
+              "RelativeDocumentMoniker": "XGame.Domain\\Entities\\Jogador.cs",
+              "ToolTip": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.Domain\\Entities\\Jogador.cs",
+              "RelativeToolTip": "XGame.Domain\\Entities\\Jogador.cs",
+              "ViewState": "AgIAABsAAAAAAAAAAAAowC8AAAAlAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T19:14:03.828Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "JogadorResponse.cs",
+              "DocumentMoniker": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.Domain\\Arguments\\Jogador\\JogadorResponse.cs",
+              "RelativeDocumentMoniker": "XGame.Domain\\Arguments\\Jogador\\JogadorResponse.cs",
+              "ToolTip": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.Domain\\Arguments\\Jogador\\JogadorResponse.cs",
+              "RelativeToolTip": "XGame.Domain\\Arguments\\Jogador\\JogadorResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBEAAAA6AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T19:05:38.629Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "IRepositoryJogador.cs",
+              "DocumentMoniker": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.Domain\\Interfaces\\Repositories\\IRepositoryJogador.cs",
+              "RelativeDocumentMoniker": "XGame.Domain\\Interfaces\\Repositories\\IRepositoryJogador.cs",
+              "ToolTip": "C:\\Users\\yMott\\source\\repos\\XGame.API\\XGame.Domain\\Interfaces\\Repositories\\IRepositoryJogador.cs",
+              "RelativeToolTip": "XGame.Domain\\Interfaces\\Repositories\\IRepositoryJogador.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAANAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-04T19:03:03.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Bookmark",
-              "Name": "ST:129:0:{116d2292-e37d-41cd-a077-ebacac4c8cc4}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:129:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:128:0:{13b12e3e-c1b4-4539-9371-4fe9a0d523fc}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:254354193:0:{71f361cc-493f-47c0-923f-f2570b6f8618}"
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
             }
           ]
         }

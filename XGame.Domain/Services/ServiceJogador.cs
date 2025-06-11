@@ -12,9 +12,6 @@ namespace XGame.Domain.Services
     public class ServiceJogador : Notifiable, IServiceJogador
     {
         private readonly IRepositoryJogador _repositoryJogador;
-        public ServiceJogador()
-        {
-        }
 
         public ServiceJogador(IRepositoryJogador repositoryJogador)
         {
@@ -33,9 +30,41 @@ namespace XGame.Domain.Services
                 return null;
             }
 
-            //Guid id = _repositoryJogador.AdicionarJogador(jogador);
+            jogador = _repositoryJogador.AdicionarJogador(jogador);
 
-            return new AdicionarJogadorResponse() { Id = Guid.NewGuid(), Message = "Operação realizada com sucesso." };
+            return (AdicionarJogadorResponse)jogador;
+        }
+
+        public AlterarJogadorResponse AlterarJogador(AlterarJogadorRequest request)
+        {
+            if (request == null)
+            {
+                AddNotification("AutenticarJogadorRequest", string.Format(Message.X0_E_OBRIGATORIO.ToFormat("AutenticarJogadorRequest")));
+            }
+
+            Jogador jogador = _repositoryJogador.ObterJogadorPorId(request.Id);
+
+            if (jogador == null)
+            {
+                AddNotification("Id", Message.DADOS_NAO_ENCONTRADOS);
+                return null;
+            }
+
+            var nome = new Nome(request.PrimeiroNome, request.UltimoNome);
+            var email = new Email(request.Email);
+
+            jogador.AlterarJogador(nome, email);
+
+            AddNotifications(jogador);
+
+            if (IsValid())
+            {
+                return null;
+            }
+
+            _repositoryJogador.AlterarJogador(jogador);
+
+            return (AlterarJogadorResponse)jogador;
         }
 
         public AutenticarJogadorResponse AutenticarJogador(AutenticarJogadorRequest request)
@@ -58,6 +87,11 @@ namespace XGame.Domain.Services
             jogador = _repositoryJogador.AutenticarJogador(jogador.Email.Endereco, jogador.Senha);
 
             return (AutenticarJogadorResponse)jogador;
+        }
+
+        public IEnumerable<JogadorResponse> ListarJogador()
+        {
+            return _repositoryJogador.ListarJogador().ToList().Select(jogador => (JogadorResponse)jogador).ToList();
         }
     }
 }
